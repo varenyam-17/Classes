@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+class Student
+{
+    public:
+    string name;
+    string branch;
+    string Subject;
+    string year;
+    float result;
+};
+int main()
+{
+    Student s1;
+    cout<<"Enter Name"<<endl;
+    cin>>s1.name;
+    cout<<"Enter branch"<<endl;
+    cin>>s1.branch;
+    cout<<"Enter Subject"<<endl;
+    cin>>s1.Subject;
+    cout<<"Enter Year"<<endl;
+    cin>>s1.year;
+    cout<<"Enter Result"<<endl;
+    cin>>s1.result;
+    cout<<"Name "<<s1.name;
+    cout<<""<<endl;
+    cout<<"Branch "<<s1.branch;
+    cout<<""<<endl;
+    cout<<"Subject "<<s1.Subject;
+    cout<<""<<endl;
+    cout<<"Result "<<s1.result;
+    cout<<""<<endl;
+    cout<<"Year "<<s1.year;
+    cout<<""<<endl;
+     
+    
+}
