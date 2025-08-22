@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+class Area
+{
+    public:
+    int length;
+    int breadth;
+    void area(int length,int breadth)
+    {
+        int area=length*breadth;
+        cout<<"Area: "<<area;
+    }
+};
+int main()
+{
+    Area a1;
+    cout<<"Enter Length: "<<endl;
+    cin>>a1.length;
+    cout<<"Enter Breadth: "<<endl;
+    cin>>a1.breadth;
+    a1.area(a1.length,a1.breadth);
+   
+    
+}
