@@ -1,0 +1,36 @@
+#include<iostream>
+using namespace std;
+class Calc
+{
+    public:
+    int a;
+    int b;
+    void solve(double a,double b)
+    {
+        int sum=a+b;
+        int product=a*b;
+        int subtract=a-b;
+        double division=a/b;
+        cout<<"Sum: "<<sum;
+        cout<<""<<endl;
+         cout<<"Product: "<<product;
+          cout<<""<<endl;
+          cout<<"Subtraction: "<<subtract;
+           cout<<""<<endl;
+           cout<<"Division: "<<division;
+    }
+};
+void input()
+{
+    Calc c1;
+
+    cout << "Enter a: ";
+    cin >> c1.a;
+    cout << "Enter b: ";
+    cin >> c1.b;
+    c1.solve(c1.a,c1.b);
+   
+}
+int main() {
+    input();
+}
