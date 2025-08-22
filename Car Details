@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class Car
+{
+   public:
+   string brand;
+   string year;
+    void print(string brand,string year)
+    {
+       
+        cout<<"Brand: "<<brand;
+        cout<<""<<endl;
+        cout<<"Year: "<<brand;
+    }
+};
+int main()
+{
+    Car a1;
+    cout<<"Enter Brand: "<<endl;
+    cin>>a1.brand;
+    cout<<"Enter Year: "<<endl;
+    cin>>a1.year;
+    a1.print(a1.brand,a1.year);
+   
+    
+}
