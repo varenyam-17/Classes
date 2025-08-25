@@ -26,9 +26,51 @@ Declares a blueprint for objects.
 - ### Input/Output Operations:
 - Using cin and cout for user interaction and result display.
 - ## ALGORITHM:
-- 
+- ### 📐 1. Area of Rectangle
 
-✅ Conclusion
+- Start
+- Define a class Rectangle with length and breadth as data members
+- Include member functions to input values and calculate area
+- Create an object of the class
+- Call input and area functions
+- Display the result
+- End
+- ### 🧮 2. Area of Rectangle Calculator
+Algorithm:
+- Start
+- Define class AreaCalculator with private members length, breadth
+- Add public functions: getData(), calculateArea(), displayArea()
+- Create object and invoke functions in sequence
+- Display computed area
+- End
+###  3. Car Details
+Algorithm:
+- Start
+- Define class Car with members: make, model, year, engineType
+- Add functions to input and display car details
+- Create object and call input/display functions
+- End
+###  4. Student Details
+Algorithm:
+- Start
+- Define class Student with members: name, rollNo, course, marks
+- Include functions to input and display student data
+- Create object and invoke functions
+- End
+- ###  Volume Calculation
+Algorithm:
+- Start
+- Define class Volume with members: length, breadth, height
+- Add functions: inputData(), calculateVolume(), displayVolume()
+- Create object and execute functions
+- Display volume
+- End
+- ## Conclusion:
+- 
+- Classes and objects are foundational to OOP, enabling encapsulation, abstraction, and code reuse.
+- By implementing classes, developers can model real-world entities more intuitively.
+- The experiment demonstrates how data and behavior can be bundled together, improving clarity and reducing errors.
+- Using access specifiers ensures data protection and controlled interaction, reinforcing good design principles.
 
 
 
