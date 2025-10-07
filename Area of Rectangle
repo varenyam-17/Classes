@@ -18,7 +18,7 @@ int main()
     cin>>a1.length;
     cout<<"Enter Breadth: "<<endl;
     cin>>a1.breadth;
-    a1.area(a1.length,a1.breadth);
+    a1.Area(a1.length,a1.breadth);
    
     
 }
